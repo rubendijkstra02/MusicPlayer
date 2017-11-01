@@ -1,0 +1,19 @@
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\App.g.cs
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer_MarkupCompile.cache
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer_MarkupCompile.lref
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MainWindow.baml
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.g.resources
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\Hoofdmenu.g.cs
+C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicPlayer\obj\Debug\Hoofdmenu.baml
+C:\Users\ruben\Desktop\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\ruben\Desktop\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\ruben\Desktop\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb

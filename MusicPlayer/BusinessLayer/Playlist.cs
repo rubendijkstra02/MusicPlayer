@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
+    /// <summary>
+    /// een playlist
+    /// </summary>
     class Playlist
     {
         private string playlistName;

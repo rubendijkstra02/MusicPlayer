@@ -12,6 +12,9 @@ using System.Media;
 
 namespace BusinessLayer
 {
+    /// <summary>
+    /// album
+    /// </summary>
     class Album
     {
 

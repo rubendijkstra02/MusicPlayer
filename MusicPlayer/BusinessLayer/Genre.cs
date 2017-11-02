@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
+    /// <summary>
+    /// een genre
+    /// </summary>
     class Genre
     {
         private int genreID;

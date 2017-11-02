@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\jvel1\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\obj\Debug\
+=======
+C:\Users\ruben\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\obj\Debug\
+>>>>>>> 3685d82cd83c4da554739ac84506e930291ec544
 MusicPlayer
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\jvel1\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\App.xaml
+=======
+C:\Users\ruben\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\App.xaml
+>>>>>>> 3685d82cd83c4da554739ac84506e930291ec544
 2-1578537189
 
 101496596176

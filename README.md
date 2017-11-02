@@ -1,5 +1,5 @@
 # MusicPlayer
-Eeen eind oodracht
+Een eind oodracht
 
 Je krijgt 15 minuten om je applicatie te presenteren. Het presenteren moet in de volgende volgorde:
 1. Upload een album naar de database.

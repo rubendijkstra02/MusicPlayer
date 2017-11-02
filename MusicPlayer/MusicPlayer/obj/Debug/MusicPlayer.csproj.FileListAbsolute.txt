@@ -17,3 +17,6 @@ C:\Users\Ruben\Desktop\niet verneukte c#\Project-TOP2000---v2\MusicPlayer\MusicP
 C:\Users\ruben\Desktop\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
 C:\Users\ruben\Desktop\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
 C:\Users\ruben\Desktop\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+C:\Users\ruben\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe.config
+C:\Users\ruben\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
+C:\Users\ruben\Documents\GitHub\MusicPlayer\MusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb

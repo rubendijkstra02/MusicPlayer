@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    class Playlist
+    public class Playlist
     {
         private string playlistName;
 
@@ -16,13 +16,10 @@ namespace BusinessLayer
             set { playlistName = value; }
         }
 
-        private int playlistID;
-
-        public int PlaylistID
+        public Playlist(string playlistName)
         {
-            get { return playlistID; }
-            set { playlistID = value; }
+            this.playlistName = playlistName;
+         
         }
-
     }
 }

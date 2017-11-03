@@ -99,7 +99,7 @@ namespace MusicPlayer {
         
         #line 20 "..\..\Hoofdmenu.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.ComboBox comboBox;
+        internal System.Windows.Controls.ComboBox cb_genre;
         
         #line default
         #line hidden
@@ -268,7 +268,7 @@ namespace MusicPlayer {
             this.dataGrid = ((System.Windows.Controls.DataGrid)(target));
             return;
             case 8:
-            this.comboBox = ((System.Windows.Controls.ComboBox)(target));
+            this.cb_genre = ((System.Windows.Controls.ComboBox)(target));
             return;
             case 9:
             this.comboBox1 = ((System.Windows.Controls.ComboBox)(target));

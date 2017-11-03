@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    class Genre
+    public class Genre
     {
-        private int genreID;
-
-        public int GenreID
-        {
-            get { return genreID; }
-            set { genreID = value; }
-        }
+        private List<string> GenreList = new List<string>();
 
         private string name;
 
@@ -24,5 +18,35 @@ namespace BusinessLayer
             set { name = value; }
         }
 
+        public Genre()
+        {
+            
+        }
+        public Genre( string name)
+        {
+         
+            this.name = name;
+        }
+
+        public void FillGenres(string name)
+        {
+            foreach (var s in GenreList)
+            {
+                GenreList.Add(name);
+            }
+            
+        }
+
+        public string Getgenres()
+        {
+            
+            foreach (string s in GenreList)
+            {
+                string returnGenre = s;
+                
+            }
+
+            return GenreList.;
+        }
     }
 }

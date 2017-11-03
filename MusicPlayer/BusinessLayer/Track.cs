@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    class Track
+    public class Track
     {
-        private int trackID;
-
-        public int TrackID
-        {
-            get { return trackID; }
-            set { trackID = value; }
-        }
+       
 
         private byte[] song;
 
@@ -57,7 +51,19 @@ namespace BusinessLayer
             set { trackAlbum = value; }
         }
 
+        public Track()
+        {
+            
+        }
 
-
+        public Track(byte[] song, string title, string artist, int ranking, Album trackAlbum)
+        {
+         
+            this.song = song;
+            this.title = title;
+            this.artist = artist;
+            this.ranking = ranking;
+            this.trackAlbum = trackAlbum;
+        }
     }
 }

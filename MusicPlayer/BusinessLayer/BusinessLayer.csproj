@@ -46,7 +46,6 @@
   <ItemGroup>
     <Compile Include="Album.cs" />
     <Compile Include="Genre.cs" />
-    <Compile Include="Player.cs" />
     <Compile Include="Playlist.cs" />
     <Compile Include="PlaylistTrack.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

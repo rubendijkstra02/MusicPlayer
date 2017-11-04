@@ -111,12 +111,7 @@
   <ItemGroup>
     <Resource Include="plus.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
-      <Project>{bcf2c17f-2d41-4825-a83e-a10eccd384d9}</Project>
-      <Name>BusinessLayer</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="Imgs\alb1.png" />
   </ItemGroup>

@@ -8,16 +8,28 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Windows.Media.Imaging;
 using System.Media;
-using System.Reflection.Emit;
 
 
 namespace BusinessLayer
 {
-    public class Album
+    /// <summary>
+    /// album
+    /// </summary>
+    class Album
     {
 
         
-     
+        /// <summary>
+        /// ID van het album Deze moet automatisch opgehoogd worden bij elk nieuw album
+        /// </summary>
+        private int albumID;
+
+        public int AlbumID
+        {
+            get { return albumID; }
+            set { albumID = value; }
+        }
+
 
 
         /// <summary>
@@ -57,12 +69,6 @@ namespace BusinessLayer
             set { genrealbum = value; }
         }
 
-        public Album(string biografie, BitmapImage frontcover, BitmapImage backcover, Genre genrealbum)
-        {
-            this.biografie = biografie;
-            this.frontcover = frontcover;
-            this.backcover = backcover;
-            this.genrealbum = genrealbum;
-        }
+        
     }
 }

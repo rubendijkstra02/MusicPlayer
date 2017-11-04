@@ -21,6 +21,7 @@ namespace DataLayer
             try
             {
                 string albumPath = "";
+
                 string generalAlbumInfoPath;
                 string albumTracksPath;
                 string key;
@@ -80,6 +81,11 @@ namespace DataLayer
             string key = splitFile.First().ToString();
 
             return key;
+        }
+
+        public static void GetAlbumAttributes()
+        {
+
         }
     }
 }

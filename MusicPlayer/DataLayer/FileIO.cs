@@ -21,6 +21,7 @@ namespace DataLayer
             try
             {
                 string albumPath = "";
+
                 string generalAlbumInfoPath;
                 string albumTracksPath;
                 string key;

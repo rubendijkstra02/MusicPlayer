@@ -17,7 +17,6 @@ namespace DataLayer
             try
             {
                 connection.Open();
-
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = connection;
                 cmd.CommandType = CommandType.StoredProcedure;

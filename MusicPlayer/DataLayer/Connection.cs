@@ -13,6 +13,7 @@ namespace DataLayer
 
         public static SqlConnection GetConnection()
         {
+
             string connectionString =
                 "Data Source=(localdb)\\MSSQLLocaldb;Initial Catalog=MusicPlayerDB;Integrated Security=True";
             SqlConnection connection = new SqlConnection(connectionString);

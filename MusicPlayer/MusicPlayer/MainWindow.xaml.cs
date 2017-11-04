@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BusinessLayer;
 
 namespace MusicPlayer
 {
@@ -20,9 +21,39 @@ namespace MusicPlayer
     /// </summary>
     public partial class MainWindow : Window
     {
+        Genre newGenre = new Genre();
         public MainWindow()
         {
+
             InitializeComponent();
+        }
+
+        private void GenreOpslaan_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void btnGenreToevoegen_Click(object sender, RoutedEventArgs e)
+        {
+            if (tb_genre.Text == "")
+            {
+                MessageBox.Show("Voer aub een genre in!");
+            }
+            else
+            {
+                string newgenre = tb_genre.Text;
+                newGenre.FillGenres(newgenre);
+            }
+        }
+
+        private void label1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow window2 = new MainWindow();
+            Hoofdmenu window1 = new Hoofdmenu();
+            window2.Close();
+            window1.Show();
+            
+
         }
     }
 }

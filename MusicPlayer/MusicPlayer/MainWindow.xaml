@@ -10,7 +10,7 @@
          ResizeMode="NoResize">
     <Grid Background="White">
         <Menu x:Name="menu" Height="27" VerticalAlignment="Top" Background="#FFC5C5C5">
-            <Label x:Name="label1" Content="Hoofdmenu" Width="78" Background="{x:Null}" Foreground="White"/>
+            <Label x:Name="label1" Content="Hoofdmenu" Width="78" Background="{x:Null}" Foreground="White" MouseDoubleClick="label1_MouseDoubleClick"/>
             <Label x:Name="label1_Copy" Content="Afspeellijsten" Width="82" Background="{x:Null}" Foreground="White"/>
             <Label x:Name="label1_Copy1" Content="Afspeellijsten" Width="81" Background="{x:Null}" Foreground="White"/>
             <Label x:Name="label1_Copy2" Content="Albums" Width="53" Background="{x:Null}" Foreground="White"/>

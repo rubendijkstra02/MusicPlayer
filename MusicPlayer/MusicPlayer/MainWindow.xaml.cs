@@ -21,8 +21,10 @@ namespace MusicPlayer
     /// </summary>
     public partial class MainWindow : Window
     {
+        Genre newGenre = new Genre();
         public MainWindow()
         {
+
             InitializeComponent();
         }
 
@@ -40,10 +42,18 @@ namespace MusicPlayer
             else
             {
                 string newgenre = tb_genre.Text;
-                Genre newGenre = new Genre();
                 newGenre.FillGenres(newgenre);
-                MessageBox.Show(newGenre.Getgenres());
             }
+        }
+
+        private void label1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow window2 = new MainWindow();
+            Hoofdmenu window1 = new Hoofdmenu();
+            window2.Close();
+            window1.Show();
+            
+
         }
     }
 }

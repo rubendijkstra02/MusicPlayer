@@ -8,7 +8,7 @@ namespace BusinessLayer
 {
     public class Genre
     {
-        private List<string> GenreList = new List<string>();
+        private static List<string> GenreList = new List<string>();
 
         private string name;
 
@@ -30,23 +30,20 @@ namespace BusinessLayer
 
         public void FillGenres(string name)
         {
-            foreach (var s in GenreList)
-            {
-                GenreList.Add(name);
-            }
-            
+                string ListItem = name;
+                GenreList.Add(ListItem);            
         }
 
-        public string Getgenres()
+        public List<string> Getgenres()
         {
-            
-            foreach (string s in GenreList)
+            string s1 = "";
+            foreach (var item in GenreList)
             {
-                string returnGenre = s;
+                s1 += item;
                 
             }
 
-            return GenreList.;
+            return GenreList;
         }
     }
 }

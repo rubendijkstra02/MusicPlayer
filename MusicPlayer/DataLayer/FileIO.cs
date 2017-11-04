@@ -81,5 +81,10 @@ namespace DataLayer
 
             return key;
         }
+
+        public static void GetAlbumAttributes()
+        {
+
+        }
     }
 }

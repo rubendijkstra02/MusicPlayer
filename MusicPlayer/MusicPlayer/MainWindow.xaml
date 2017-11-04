@@ -17,9 +17,9 @@
         </Menu>
         <Border BorderThickness="1" Background="#FFC5C5C5" Margin="20,37,0,194" HorizontalAlignment="Left" Width="210"/>
         <Label x:Name="lblVoegtoe2" Content="Genre toevoegen" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Height="40" Margin="30,41,0,0" Foreground="White" FontFamily="Arial" HorizontalAlignment="Left" Width="191"/>
-        <TextBox x:Name="textBox" TextAlignment="Center" Padding="5px" TextWrapping="Wrap" Margin="29,143,0,0" Background="White" SelectionBrush="#FFFF8B00" Foreground="Black" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="182"/>
+        <TextBox x:Name="tb_genre" TextAlignment="Center" Padding="5px" TextWrapping="Wrap" Margin="29,143,0,0" Background="White" SelectionBrush="#FFFF8B00" Foreground="Black" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="182"/>
         <Grid Margin="20,37,0,194" HorizontalAlignment="Left" Width="210"/>
-        <Button Padding="2px" x:Name="btnGenreToevoegen" Content="Voeg een genre toe" Margin="29,87,0,0" HorizontalAlignment="Left" Width="182" Background="White" Foreground="Black" BorderBrush="{x:Null}" Height="43" VerticalAlignment="Top"/>
+        <Button Padding="2px" x:Name="btnGenreToevoegen" Content="Voeg een genre toe" Margin="29,87,0,0" HorizontalAlignment="Left" Width="182" Background="White" Foreground="Black" BorderBrush="{x:Null}" Height="43" VerticalAlignment="Top" Click="btnGenreToevoegen_Click_1"/>
         <Border BorderThickness="1" Background="#FFC5C5C5" Margin="20,0,0,9" HorizontalAlignment="Left" Height="180" VerticalAlignment="Bottom" Width="210"/>
         <Label x:Name="lblVoegtoe2_Copy" Content="Ranking toevoegen" VerticalAlignment="Bottom" FontWeight="Bold" FontSize="20" Height="40" Margin="25,0,0,149" Foreground="White" FontFamily="Arial" HorizontalAlignment="Left" Width="210"/>
         <TextBox x:Name="textBox_Copy" TextAlignment="Center" Padding="5px" TextWrapping="Wrap" Margin="29,0,0,50" Background="White" SelectionBrush="#FFFF8B00" Foreground="Black" HorizontalAlignment="Left" Height="35" VerticalAlignment="Bottom" Width="182"/>

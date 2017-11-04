@@ -33,7 +33,17 @@ namespace MusicPlayer
             
         }
 
-        private void btnGenreToevoegen_Click(object sender, RoutedEventArgs e)
+        private void label1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            MainWindow window2 = new MainWindow();
+            Hoofdmenu window1 = new Hoofdmenu();
+            window2.Close();
+            window1.Show();
+            
+
+        }
+
+        private void btnGenreToevoegen_Click_1(object sender, RoutedEventArgs e)
         {
             if (tb_genre.Text == "")
             {
@@ -44,16 +54,6 @@ namespace MusicPlayer
                 string newgenre = tb_genre.Text;
                 newGenre.FillGenres(newgenre);
             }
-        }
-
-        private void label1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow window2 = new MainWindow();
-            Hoofdmenu window1 = new Hoofdmenu();
-            window2.Close();
-            window1.Show();
-            
-
         }
     }
 }

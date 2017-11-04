@@ -1,0 +1,15 @@
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll

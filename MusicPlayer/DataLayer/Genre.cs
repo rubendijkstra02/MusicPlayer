@@ -10,6 +10,10 @@ namespace DataLayer
 {
     public static class Genre
     {
+        /// <summary>
+        /// Selecteert elke genre uit de database en stop de resultaten in een string List.
+        /// </summary>
+        /// <returns>A list of string with genres</returns>
         public static List<string> GetGenres()
         {
             SqlConnection connection = Connection.GetConnection();
@@ -52,7 +56,31 @@ namespace DataLayer
                 cmd.Connection = connection;
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "spSetNewGenre";
-                cmd.Parameters.Add("@newGenre", SqlDbType.VarChar, 20, s1);
+                cmd.Parameters.AddWithValue("@newGenre", s1);
+                cmd.ExecuteNonQuery();
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
+        public static void DeleteGenre(string s1)
+        {
+            SqlConnection connection = Connection.GetConnection();
+            try
+            {
+                connection.Open();
+
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = connection;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "spDeleteGenre";
+                cmd.Parameters.AddWithValue("@Genre", s1);
                 cmd.ExecuteNonQuery();
             }
             catch (SqlException ex)

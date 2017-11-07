@@ -13,3 +13,5 @@ C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\De
 C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
 C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
 C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\Ruben\Documents\Muziekding\MusicPlayer\MusicPlayer\BusinessLayer\bin\Debug\DataLayer.pdb

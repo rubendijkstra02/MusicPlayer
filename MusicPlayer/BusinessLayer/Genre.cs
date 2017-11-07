@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataLayer;
 
 namespace BusinessLayer
 {
@@ -30,6 +31,7 @@ namespace BusinessLayer
 
         public void FillGenres(string name)
         {
+                DataLayer.Genre.InsertGenre(name);
                 string ListItem = name;
                 GenreList.Add(ListItem);            
         }
@@ -37,7 +39,7 @@ namespace BusinessLayer
         public List<string> Getgenres()
         {
             string s1 = "";
-            foreach (var item in GenreList)
+            foreach (var item in DataLayer.Genre.GetGenres())
             {
                 s1 += item;
                 

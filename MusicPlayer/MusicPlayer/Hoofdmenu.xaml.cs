@@ -20,7 +20,7 @@ namespace MusicPlayer
     /// </summary>
     public partial class Hoofdmenu : Window
     {
-        Genre genre = new Genre();
+        
         public Hoofdmenu()
         {
             InitializeComponent();
@@ -28,8 +28,7 @@ namespace MusicPlayer
 
         private void cb_genre_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
-          
+            
         }
 
         private void label5_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -42,10 +41,12 @@ namespace MusicPlayer
 
         private void btntest_Click(object sender, RoutedEventArgs e)
         {
-            foreach (var genre in genre.Getgenres())
-            {
-                cb_genre.Items.Add(genre);
-            }
+           
+        }
+
+        private void cb_genre_DropDownOpened(object sender, EventArgs e)
+        {
+            MessageBox.Show("je opet nu de cb");
         }
     }
 

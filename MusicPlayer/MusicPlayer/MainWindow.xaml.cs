@@ -21,6 +21,8 @@ namespace MusicPlayer
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+        Hoofdmenu window1 = new Hoofdmenu();
         Genre newGenre = new Genre();
         public MainWindow()
         {
@@ -36,7 +38,6 @@ namespace MusicPlayer
         private void label1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             MainWindow window2 = new MainWindow();
-            Hoofdmenu window1 = new Hoofdmenu();
             window2.Close();
             window1.Show();
             
@@ -54,6 +55,13 @@ namespace MusicPlayer
                 string newgenre = tb_genre.Text;
                 newGenre.FillGenres(newgenre);
             }
+
+            foreach (var genre in newGenre.Getgenres())
+            {
+                
+                window1.cb_genre.Items.Add(genre);
+            }
+           
         }
     }
 }

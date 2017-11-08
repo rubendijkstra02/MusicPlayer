@@ -13,6 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using BusinessLayer;
+using System.IO;
+using Microsoft.Win32;
+using Path = System.IO.Path;
+
 
 namespace MusicPlayer
 {
@@ -22,12 +26,16 @@ namespace MusicPlayer
     public partial class MainWindow : Window
     {
         
-       
+        
         Genre newGenre = new Genre();
+        Album currentAlbum = new Album();
+        BusinessLayer.Genre genre = new Genre();
+        List<string> genres = new List<string>();
         public MainWindow()
         {
-
+            genres = genre.Getgenres();
             InitializeComponent();
+            cbGenre.ItemsSource = genres;
         }
 
         private void GenreOpslaan_Click(object sender, RoutedEventArgs e)
@@ -59,6 +67,20 @@ namespace MusicPlayer
 
             
            
+        }
+
+        private void btnUploadAlbum_Click(object sender, RoutedEventArgs e)
+        {
+            currentAlbum = PartlyAlbumInitializer.InitializeAlbum();
+
+            imgFront.Source = currentAlbum.Frontcover;
+            imgBack.Source = currentAlbum.Backcover;
+            tbBio.Text = currentAlbum.Biografie;
+        }
+
+        private void SaveAlbum(object sender, RoutedEventArgs e)
+        {
+            currentAlbum.Create();
         }
     }
 }

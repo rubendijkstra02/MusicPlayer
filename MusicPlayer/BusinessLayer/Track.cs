@@ -9,7 +9,7 @@ namespace BusinessLayer
     /// <summary>
     /// een track
     /// </summary>
-    class Track
+    public class Track
     {
         private int trackID;
 
@@ -53,6 +53,12 @@ namespace BusinessLayer
         }
 
         private Album trackAlbum;
+        private KeyValuePair<string, byte[]> song1;
+
+        public Track(KeyValuePair<string, byte[]> song1)
+        {
+            this.song1 = song1;
+        }
 
         public Album TrackAlbum
         {

@@ -21,14 +21,15 @@ namespace MusicPlayer
     public partial class Hoofdmenu : Window
     {
         Genre newGenre = new Genre();
+        BusinessLayer.Album album = new Album();
+        List<Track> tracklist = new List<Track>();
+        List<Album> albumlist = new List<Album>();
+        Speler speler = new Speler();
         public Hoofdmenu()
         {
             InitializeComponent();
-        }
-
-        private void cb_genre_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
+            albumlist = album.getAllAlbums();
+            dgAlbums.ItemsSource = albumlist;
         }
 
         private void label5_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -39,19 +40,32 @@ namespace MusicPlayer
             window1.Show();
         }
 
-        private void btntest_Click(object sender, RoutedEventArgs e)
+        private void dgAlbums_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
+            var currentAlbum = dgAlbums.SelectedItem as Album;
+            //tracklist = currentAlbum.getTracks();
+            //Methode gettracks maken, zelfde als getalbums, en daarna met een foreach kijken of de albumnaam gelijk is aan de benodigde album naam.
+            dgTracks.ItemsSource = tracklist;
+            imgFront.Source = currentAlbum.Frontcover;
+            tbBio.Text = currentAlbum.Biografie;
+            tbAlbumName.Content = currentAlbum.AlbumNaam;
         }
 
-        private void cb_genre_DropDownOpened(object sender, EventArgs e)
+        private void dgTracks_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
-            foreach (var genre in newGenre.Getgenres())
-            {
-               cb_genre.Items.Add(genre);
-               
-            }
+            var track = dgTracks.SelectedItem as Track;
+            speler.PlayTrack(track);
+            tbTrackTitle.Content = track.Title;
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            speler.Play();
+        }
+
+        private void button_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            speler.Pause();
         }
     }
 

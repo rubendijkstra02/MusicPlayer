@@ -16,25 +16,17 @@
             <Label x:Name="label1_Copy2" Content="Albums" Width="53" Background="{x:Null}" Foreground="White"/>
             <Label x:Name="label5" Content="Instellingen" Background="{x:Null}" Foreground="White" MouseDoubleClick="label5_MouseDoubleClick"/>
         </Menu>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Height="377" Width="271" Background="#FFD1D1D1" BorderBrush="#FFB9B9B9" Foreground="White"/>
-        <ComboBox x:Name="cb_genre" HorizontalAlignment="Left" Margin="603,42,0,0" VerticalAlignment="Top" Width="132" Height="26" SelectionChanged="cb_genre_SelectionChanged" DropDownOpened="cb_genre_DropDownOpened"/>
-        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="603,93,0,0" VerticalAlignment="Top" Width="134"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="109,34,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="172"/>
-        <Label x:Name="label" Content="Zoek een album" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top" Width="99"/>
-        <Label x:Name="label2" Content="Filter op Genre" HorizontalAlignment="Left" Margin="510,42,0,0" VerticalAlignment="Top" Width="93"/>
-        <Label x:Name="label2_Copy" Content="Filter op Playlist" HorizontalAlignment="Left" Margin="510,89,0,0" VerticalAlignment="Top" Width="93"/>
-        <Image Height="200px" Width="200px" Source="Imgs/alb1.png" Margin="289,34,269,283"/>
-        <DataGrid x:Name="dataGrid_Copy" HorizontalAlignment="Left" Margin="510,247,0,0" VerticalAlignment="Top" Height="189" Width="225" Background="#FFD4D4D4" BorderBrush="#FFB9B9B9" Foreground="White"/>
+        <DataGrid x:Name="dgAlbums" HorizontalAlignment="Left" Margin="10,59,0,0" VerticalAlignment="Top" Height="377" Width="271" Background="#FFD1D1D1" BorderBrush="#FFB9B9B9" Foreground="White" SelectionChanged="dgAlbums_SelectionChanged"/>
+        <Image x:Name="imgFront" Height="200px" Width="200px" Source="Imgs/alb1.png" Margin="289,34,269,283"/>
+        <DataGrid x:Name="dgTracks" HorizontalAlignment="Left" Margin="510,85,0,0" VerticalAlignment="Top" Height="351" Width="225" Background="#FFD4D4D4" BorderBrush="#FFB9B9B9" Foreground="White" SelectionChanged="dgTracks_SelectionChanged"/>
         <Label x:Name="label3" HorizontalAlignment="Left" Margin="289,239,0,0" VerticalAlignment="Top" Width="200">
             <Border BorderBrush="Black" BorderThickness="1" Height="187" Width="190"/>
         </Label>
-        <Label x:Name="label3_Copy" Content="Nummer: Silence" HorizontalAlignment="Left" Margin="300,249,0,0" VerticalAlignment="Top" Width="178"/>
-        <Label x:Name="label3_Copy1" Content="Album: SilcenceSongs" HorizontalAlignment="Left" Margin="300,275,0,0" VerticalAlignment="Top" Width="178"/>
-        <Label x:Name="label4" Content="Nummers van albums" HorizontalAlignment="Left" Margin="510,216,0,0" VerticalAlignment="Top" Width="225"/>
-        <TextBlock Padding="5px" x:Name="textBlock" HorizontalAlignment="Left" Margin="300,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="126" Width="178"><Run Foreground="#FF020202" FontSize="12.6666666666667" FontFamily="Consolas" Text="Biografie: "/><LineBreak/><Run Foreground="#FF020202" FontSize="12.6666666666667" FontFamily="Consolas"/><LineBreak/><Run Foreground="#FF020202" FontSize="12.6666666666667" FontFamily="Consolas" Text="Silence is een van de songs die uitgebracht werden door marshmallo dit nummer is in 2017 uitgbracht onder het mom van muziek is voor iedereen"/></TextBlock>
-        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="10,441,0,0" VerticalAlignment="Top" Width="479"/>
-        <Button x:Name="button" Content="Play" HorizontalAlignment="Left" Margin="510,441,0,0" VerticalAlignment="Top" Width="112"/>
-        <Button x:Name="button_Copy" Content="Stop" HorizontalAlignment="Left" Margin="627,441,0,0" VerticalAlignment="Top" Width="108"/>
-        <Button x:Name="btntest" Content="Button" HorizontalAlignment="Left" Margin="604,175,0,0" VerticalAlignment="Top" Width="75" Click="btntest_Click"/>
+        <Label x:Name="tbTrackTitle" Content="Nummer: Silence" HorizontalAlignment="Left" Margin="300,249,0,0" VerticalAlignment="Top" Width="178"/>
+        <Label x:Name="tbAlbumName" Content="Album: SilcenceSongs" HorizontalAlignment="Left" Margin="300,275,0,0" VerticalAlignment="Top" Width="178"/>
+        <Label x:Name="label4" Content="Nummers van albums" HorizontalAlignment="Left" Margin="510,59,0,0" VerticalAlignment="Top" Width="225"/>
+        <TextBlock Padding="5px" x:Name="tbBio" HorizontalAlignment="Left" Margin="300,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="126" Width="178"><Run Foreground="#FF020202" FontSize="12.6666666666667" FontFamily="Consolas" Text="Biografie: "/><LineBreak/><Run Foreground="#FF020202" FontSize="12.6666666666667" FontFamily="Consolas"/><LineBreak/><Run Foreground="#FF020202" FontSize="12.6666666666667" FontFamily="Consolas" Text="Silence is een van de songs die uitgebracht werden door marshmallo dit nummer is in 2017 uitgbracht onder het mom van muziek is voor iedereen"/></TextBlock>
+        <Button x:Name="button" Content="Play" HorizontalAlignment="Left" Margin="510,441,0,0" VerticalAlignment="Top" Width="112" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Pause" HorizontalAlignment="Left" Margin="627,441,0,0" VerticalAlignment="Top" Width="108" Click="button_Copy_Click"/>
     </Grid>
 </Window>
